@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 board = ["","","","","","","",""]
-index=10
+index=8
 
 ## puts index
 
