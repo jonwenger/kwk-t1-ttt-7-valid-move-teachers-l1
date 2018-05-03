@@ -1,6 +1,7 @@
 # code your #valid_move? method here
 board = ["x","x","x","x","x","x","x","x"]
 index=2
+puts board
 def valid_move?(board, index)
 num=index-1
 
