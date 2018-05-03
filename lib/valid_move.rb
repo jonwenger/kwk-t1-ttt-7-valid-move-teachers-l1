@@ -14,7 +14,7 @@ end
 
 
 def valid_move?(board, index)
-  num = index-1
+  num = index
 if position_taken?(board,num)==true || num.between?(0,8)==false
   false
 else
