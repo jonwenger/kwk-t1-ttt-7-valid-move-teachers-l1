@@ -1,6 +1,6 @@
 # code your #valid_move? method here
-board = ["","","","","","","","X"]
-index=8
+##board = ["","","","","","","","X"]
+##index=8
 
 ## puts index
 
@@ -26,4 +26,4 @@ end
 
 
 
- puts "#{valid_move?(board, index)}"
+ ## puts "#{valid_move?(board, index)}"
