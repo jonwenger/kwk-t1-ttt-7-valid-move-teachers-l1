@@ -1,9 +1,9 @@
 # code your #valid_move? method here
 board = ["x","x","x","x","x","x","x","x"]
 index=2
-puts board
+
 puts index
-valid_move(board,index)
+valid_move?(board,index)
 
 def valid_move?(board, index)
 num=index-1
