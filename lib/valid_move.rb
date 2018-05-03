@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-board = ["x","x","x","x","x","x","x","x"]
+board = ["","","","","","","",""]
 index=2
 
 ## puts index
