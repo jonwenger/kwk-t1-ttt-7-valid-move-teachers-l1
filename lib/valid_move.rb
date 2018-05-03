@@ -26,4 +26,4 @@ end
 
 
 
-puts "#{valid_move?(board, index)}"
+
