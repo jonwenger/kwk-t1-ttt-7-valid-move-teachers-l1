@@ -3,7 +3,7 @@ board = ["x","x","x","x","x","x","x","x"]
 index=2
 
 puts index
-puts "#{valid_move?(board, index)}"
+
 
 def valid_move?(board, index)
 num=index-1
@@ -20,3 +20,5 @@ else
   true
 end
 end
+
+puts "#{valid_move?(board, index)}"
