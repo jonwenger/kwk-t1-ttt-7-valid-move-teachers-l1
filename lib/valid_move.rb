@@ -2,6 +2,7 @@
 def valid_move?(board, index)
   num = index-1
   if position_taken?(board,num) == true
+    puts "#{position_taken}"
      false
 else
      true
