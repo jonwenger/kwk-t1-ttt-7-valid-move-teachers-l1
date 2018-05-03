@@ -1,8 +1,8 @@
 # code your #valid_move? method here
-board = ["x","x","x","x","x","x","x","x"]
-index=2
+##board = ["x","x","x","x","x","x","x","x"]
+##index=2
 
-puts index
+## puts index
 
 def position_taken?(board, num)
 if board[num]== " " || board[num]== "" || board[num]== nil
@@ -15,7 +15,7 @@ end
 
 def valid_move?(board, index)
   num = index-1
-if position_taken?(board,num)==true || num.between?(0,8)==false
+if position_taken?(board,num)==true 
   false
 else
   true
