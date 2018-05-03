@@ -2,6 +2,7 @@
 board = ["x","x","x","x","x","x","x","x"]
 index=2
 puts board
+puts index
 def valid_move?(board, index)
 num=index-1
 
